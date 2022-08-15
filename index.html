@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-200">
+    <section class="mt-8 w-1/2 mx-auto" >
+        <div class="grid grid-cols-1 h-20 bg-neutral-400 border-4 border-stone-700">
+            <h1 id="display-result" class="text-6xl ml-auto mr-4 my-auto">0</h1>
+            <input type="hidden" name="" id="hidden-input">
+            <input type="hidden" name="" id="hidden-operator">
+        </div>
+        <!-- <div class="grid grid-cols-4 h-16 text-4xl">
+            
+        </div> -->
+        <div class="grid grid-rows-5 grid-flow-col text-4xl">
+            <button class="bg-orange-300 border-2 border-orange-800 h-20 bg-yellow-300 operators">+</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">7</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">4</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">1</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">0</button>
+            <button class="bg-orange-300 border-2 border-orange-800 bg-yellow-300 operators"> - </button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">8</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">5</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">2</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">.</button>
+            <button class="bg-orange-300 border-2 border-orange-800 bg-yellow-300 operators">x</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">9</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">6</button>
+            <button class="bg-orange-300 border-2 border-orange-800 digits">3</button>
+            <button class="bg-orange-300 border-2 border-orange-800" id="clear">CE</button>
+            <button class="bg-orange-300 border-2 border-orange-800 bg-yellow-300 operators">/</button>
+            <button class="bg-orange-300 border-2 border-orange-800 row-span-4 bg-lime-300"> = </button>
+        </div>
+    </section>
+   <script src="script.js"></script> 
+</body>
+</html>
